@@ -34,6 +34,8 @@ const PropertyList = () => {
         getProperties();
     }, []);
 
+    
+
     return (
         <>
             {properties.map((property) => {
